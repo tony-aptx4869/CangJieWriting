@@ -8,10 +8,11 @@
 
 #import "HYJWritingViewController.h"
 #import "HYJDrawingView.h"
+#import "HYJResourceManager.h"
 
 @interface HYJWritingViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *mattBackgroundImageView;
 @property (weak, nonatomic) IBOutlet HYJDrawingView *writingView;
-
 @end
 
 @implementation HYJWritingViewController
@@ -21,8 +22,14 @@
     // Do any additional setup after loading the view.
 }
 
-- (void)setUpWritingView {
-    
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self setUpMattImageBackgroundView];
+}
+
+- (void)setUpMattImageBackgroundView {
+    UIImage *mattImage = [HYJResourceManager mattImageForScreenSize:[[UIScreen mainScreen] bounds].size];
+    [_mattBackgroundImageView setImage:mattImage];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -30,14 +37,9 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)clearCurrentWriting:(UIButton *)sender {
+    [_writingView clear];
 }
-*/
+
 
 @end
