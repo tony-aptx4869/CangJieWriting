@@ -11,6 +11,7 @@
 		FBC4A3051B95C09B00526A10 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FBC4A3031B95C09B00526A10 /* README.md */; settings = {ASSET_TAGS = (); }; };
 		FBC69AB71B99363B001BF52E /* HYJDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC69AB41B99363B001BF52E /* HYJDrawingTools.m */; settings = {ASSET_TAGS = (); }; };
 		FBC69AB81B99363B001BF52E /* HYJDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC69AB61B99363B001BF52E /* HYJDrawingView.m */; settings = {ASSET_TAGS = (); }; };
+		FBC69ABB1B9938FD001BF52E /* HYJWritingRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FBC69ABA1B9938FD001BF52E /* HYJWritingRes.bundle */; settings = {ASSET_TAGS = (); }; };
 		FBF1C7581B9537A2000E5A7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1C7571B9537A2000E5A7D /* main.m */; };
 		FBF1C75B1B9537A2000E5A7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1C75A1B9537A2000E5A7D /* AppDelegate.m */; };
 		FBF1C75E1B9537A2000E5A7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1C75D1B9537A2000E5A7D /* ViewController.m */; };
@@ -26,6 +27,7 @@
 		FBC69AB41B99363B001BF52E /* HYJDrawingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJDrawingTools.m; sourceTree = "<group>"; };
 		FBC69AB51B99363B001BF52E /* HYJDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJDrawingView.h; sourceTree = "<group>"; };
 		FBC69AB61B99363B001BF52E /* HYJDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJDrawingView.m; sourceTree = "<group>"; };
+		FBC69ABA1B9938FD001BF52E /* HYJWritingRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HYJWritingRes.bundle; sourceTree = "<group>"; };
 		FBF1C7531B9537A2000E5A7D /* CangJieWriting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CangJieWriting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF1C7571B9537A2000E5A7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FBF1C7591B9537A2000E5A7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,9 +62,18 @@
 			path = HYJDrawingView;
 			sourceTree = "<group>";
 		};
+		FBC69AB91B9938F1001BF52E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBC69ABA1B9938FD001BF52E /* HYJWritingRes.bundle */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FBF1C74A1B9537A2000E5A7D = {
 			isa = PBXGroup;
 			children = (
+				FBC69AB91B9938F1001BF52E /* Frameworks */,
 				FBF1C7551B9537A2000E5A7D /* CangJieWriting */,
 				FBF1C7541B9537A2000E5A7D /* Products */,
 			);
@@ -163,6 +174,7 @@
 				FBF1C7661B9537A2000E5A7D /* LaunchScreen.storyboard in Resources */,
 				FBF1C7631B9537A2000E5A7D /* Assets.xcassets in Resources */,
 				FBC4A3041B95C09B00526A10 /* LICENSE in Resources */,
+				FBC69ABB1B9938FD001BF52E /* HYJWritingRes.bundle in Resources */,
 				FBF1C7611B9537A2000E5A7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
