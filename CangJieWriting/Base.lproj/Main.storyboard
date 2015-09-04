@@ -3,14 +3,15 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Writing View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HYJWritingViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -19,50 +20,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xG4-3c-6Zi">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LNf-cs-ZV3" customClass="HYJDrawingView">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="xG4-3c-6Zi" secondAttribute="height" multiplier="1:1" id="OOt-Od-N4w"/>
+                                    <constraint firstAttribute="width" secondItem="LNf-cs-ZV3" secondAttribute="height" multiplier="1:1" id="LUS-NB-e0j"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="OOt-Od-N4w"/>
+                                        <exclude reference="LUS-NB-e0j"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="OOt-Od-N4w"/>
+                                        <include reference="LUS-NB-e0j"/>
                                     </mask>
                                 </variation>
-                            </imageView>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="xG4-3c-6Zi" secondAttribute="trailing" id="eyj-h8-KBs"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xG4-3c-6Zi" secondAttribute="bottom" constant="20" id="hNC-ec-cme"/>
-                            <constraint firstItem="xG4-3c-6Zi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="iLn-vb-HBg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LNf-cs-ZV3" secondAttribute="trailing" id="Ptl-IZ-eyN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LNf-cs-ZV3" secondAttribute="bottom" constant="20" id="R2R-Fn-hKR"/>
+                            <constraint firstItem="LNf-cs-ZV3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="zlf-zb-NqM"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="xG4-3c-6Zi"/>
+                                <exclude reference="LNf-cs-ZV3"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="eyj-h8-KBs"/>
-                                <exclude reference="iLn-vb-HBg"/>
-                                <exclude reference="hNC-ec-cme"/>
+                                <exclude reference="R2R-Fn-hKR"/>
+                                <exclude reference="Ptl-IZ-eyN"/>
+                                <exclude reference="zlf-zb-NqM"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="xG4-3c-6Zi"/>
+                                <include reference="LNf-cs-ZV3"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="eyj-h8-KBs"/>
-                                <include reference="iLn-vb-HBg"/>
-                                <include reference="hNC-ec-cme"/>
+                                <include reference="R2R-Fn-hKR"/>
+                                <include reference="Ptl-IZ-eyN"/>
+                                <include reference="zlf-zb-NqM"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="writingView" destination="LNf-cs-ZV3" id="vfe-1O-T9a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
