@@ -120,8 +120,6 @@
 				FBC69ACB1B993B75001BF52E /* Model */,
 				FBC69AC31B993B6C001BF52E /* View */,
 				FBC69ACD1B993B86001BF52E /* Tool */,
-				FBF1C75F1B9537A2000E5A7D /* Main.storyboard */,
-				FBF1C7621B9537A2000E5A7D /* Assets.xcassets */,
 				FBF1C7561B9537A2000E5A7D /* Supporting Files */,
 			);
 			path = CangJieWriting;
@@ -130,6 +128,8 @@
 		FBF1C7561B9537A2000E5A7D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FBF1C7621B9537A2000E5A7D /* Assets.xcassets */,
+				FBF1C75F1B9537A2000E5A7D /* Main.storyboard */,
 				FBF1C7641B9537A2000E5A7D /* LaunchScreen.storyboard */,
 				FBF1C7591B9537A2000E5A7D /* AppDelegate.h */,
 				FBF1C75A1B9537A2000E5A7D /* AppDelegate.m */,
