@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FBC4A3041B95C09B00526A10 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = FBC4A3021B95C09B00526A10 /* LICENSE */; settings = {ASSET_TAGS = (); }; };
 		FBC4A3051B95C09B00526A10 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FBC4A3031B95C09B00526A10 /* README.md */; settings = {ASSET_TAGS = (); }; };
+		FBC69AB71B99363B001BF52E /* HYJDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC69AB41B99363B001BF52E /* HYJDrawingTools.m */; settings = {ASSET_TAGS = (); }; };
+		FBC69AB81B99363B001BF52E /* HYJDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC69AB61B99363B001BF52E /* HYJDrawingView.m */; settings = {ASSET_TAGS = (); }; };
 		FBF1C7581B9537A2000E5A7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1C7571B9537A2000E5A7D /* main.m */; };
 		FBF1C75B1B9537A2000E5A7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1C75A1B9537A2000E5A7D /* AppDelegate.m */; };
 		FBF1C75E1B9537A2000E5A7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1C75D1B9537A2000E5A7D /* ViewController.m */; };
@@ -20,6 +22,10 @@
 /* Begin PBXFileReference section */
 		FBC4A3021B95C09B00526A10 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FBC4A3031B95C09B00526A10 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FBC69AB31B99363B001BF52E /* HYJDrawingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJDrawingTools.h; sourceTree = "<group>"; };
+		FBC69AB41B99363B001BF52E /* HYJDrawingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJDrawingTools.m; sourceTree = "<group>"; };
+		FBC69AB51B99363B001BF52E /* HYJDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJDrawingView.h; sourceTree = "<group>"; };
+		FBC69AB61B99363B001BF52E /* HYJDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJDrawingView.m; sourceTree = "<group>"; };
 		FBF1C7531B9537A2000E5A7D /* CangJieWriting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CangJieWriting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF1C7571B9537A2000E5A7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FBF1C7591B9537A2000E5A7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,6 +49,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FBC69AB21B99363B001BF52E /* HYJDrawingView */ = {
+			isa = PBXGroup;
+			children = (
+				FBC69AB31B99363B001BF52E /* HYJDrawingTools.h */,
+				FBC69AB41B99363B001BF52E /* HYJDrawingTools.m */,
+				FBC69AB51B99363B001BF52E /* HYJDrawingView.h */,
+				FBC69AB61B99363B001BF52E /* HYJDrawingView.m */,
+			);
+			path = HYJDrawingView;
+			sourceTree = "<group>";
+		};
 		FBF1C74A1B9537A2000E5A7D = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +79,7 @@
 		FBF1C7551B9537A2000E5A7D /* CangJieWriting */ = {
 			isa = PBXGroup;
 			children = (
+				FBC69AB21B99363B001BF52E /* HYJDrawingView */,
 				FBF1C7591B9537A2000E5A7D /* AppDelegate.h */,
 				FBF1C75A1B9537A2000E5A7D /* AppDelegate.m */,
 				FBF1C75C1B9537A2000E5A7D /* ViewController.h */,
@@ -159,6 +177,8 @@
 				FBF1C75E1B9537A2000E5A7D /* ViewController.m in Sources */,
 				FBF1C75B1B9537A2000E5A7D /* AppDelegate.m in Sources */,
 				FBC4A3051B95C09B00526A10 /* README.md in Sources */,
+				FBC69AB81B99363B001BF52E /* HYJDrawingView.m in Sources */,
+				FBC69AB71B99363B001BF52E /* HYJDrawingTools.m in Sources */,
 				FBF1C7581B9537A2000E5A7D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
