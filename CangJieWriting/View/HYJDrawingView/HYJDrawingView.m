@@ -48,11 +48,21 @@
 @property (nonatomic, strong) UIImage *image;
 @property (nonatomic, strong) UITextView *textView;
 @property (nonatomic, assign) CGFloat originalFrameYPos;
+
+@property (strong, nonatomic) NSMutableArray *currentPath;
+@property (strong, nonatomic) NSMutableArray *allPath;
 @end
 
 #pragma mark -
 
 @implementation HYJDrawingView
+
+- (NSMutableArray *)allPath {
+    if (!_allPath) {
+        _allPath = [NSMutableArray array];
+    }
+    return _allPath;
+}
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -257,6 +267,9 @@
     previousPoint1 = [touch previousLocationInView:self];
     currentPoint = [touch locationInView:self];
     
+    _currentPath = [NSMutableArray array];
+    [_currentPath addObject:[NSValue valueWithCGPoint:currentPoint]];
+    
     // init the bezier path
     self.currentTool = [self toolWithCurrentSettings];
     self.currentTool.lineWidth = self.lineWidth;
@@ -288,6 +301,8 @@
     previousPoint1 = [touch previousLocationInView:self];
     currentPoint = [touch locationInView:self];
     
+    [_currentPath addObject:[NSValue valueWithCGPoint:currentPoint]];
+    
     if ([self.currentTool isKindOfClass:[HYJDrawingPenTool class]]) {
         CGRect bounds = [(HYJDrawingPenTool*)self.currentTool addPathPreviousPreviousPoint:previousPoint2 withPreviousPoint:previousPoint1 withCurrentPoint:currentPoint];
         
@@ -313,6 +328,8 @@
 {
     // make sure a point is recorded
     [self touchesMoved:touches withEvent:event];
+    
+    [self.allPath addObject:_currentPath];
     
     if ([self.currentTool isKindOfClass:[HYJDrawingTextTool class]]) {
         [self startTextEntry];
@@ -553,6 +570,8 @@
 
 - (void)clear
 {
+    _allPath = nil;
+    _currentPath = nil;
     [self resetTool];
     [self.bufferArray removeAllObjects];
     [self.pathArray removeAllObjects];

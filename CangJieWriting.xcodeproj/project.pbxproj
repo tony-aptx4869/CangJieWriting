@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB94795B1B9D361900811CC8 /* NSString+HYJEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = FB94795A1B9D361900811CC8 /* NSString+HYJEncryption.m */; settings = {ASSET_TAGS = (); }; };
 		FBC69ABB1B9938FD001BF52E /* HYJWritingRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FBC69ABA1B9938FD001BF52E /* HYJWritingRes.bundle */; settings = {ASSET_TAGS = (); }; };
 		FBC69AC91B993B6C001BF52E /* HYJDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC69AC61B993B6C001BF52E /* HYJDrawingTools.m */; settings = {ASSET_TAGS = (); }; };
 		FBC69ACA1B993B6C001BF52E /* HYJDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC69AC81B993B6C001BF52E /* HYJDrawingView.m */; settings = {ASSET_TAGS = (); }; };
 		FBC69AD01B993D9E001BF52E /* HYJWritingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC69ACF1B993D9E001BF52E /* HYJWritingViewController.m */; settings = {ASSET_TAGS = (); }; };
 		FBC69ADB1B9940D5001BF52E /* HYJResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC69ADA1B9940D5001BF52E /* HYJResourceManager.m */; settings = {ASSET_TAGS = (); }; };
 		FBC69ADF1B995ED7001BF52E /* libHWCloudsdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC69ADE1B995ED7001BF52E /* libHWCloudsdk.a */; settings = {ASSET_TAGS = (); }; };
+		FBC69AE21B996001001BF52E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC69AE11B996001001BF52E /* CFNetwork.framework */; };
+		FBC69AE41B99600E001BF52E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC69AE31B99600E001BF52E /* CoreGraphics.framework */; };
+		FBC69AE61B996017001BF52E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC69AE51B996017001BF52E /* Foundation.framework */; };
+		FBC69AE81B996022001BF52E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC69AE71B996022001BF52E /* MobileCoreServices.framework */; };
+		FBC69AEA1B99602B001BF52E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC69AE91B99602B001BF52E /* SystemConfiguration.framework */; };
+		FBC69AEC1B996034001BF52E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC69AEB1B996034001BF52E /* UIKit.framework */; };
+		FBC69AEE1B99603D001BF52E /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC69AED1B99603D001BF52E /* libz.1.2.5.tbd */; };
+		FBC69AF11B9972C0001BF52E /* HYJHanvonWritingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC69AF01B9972C0001BF52E /* HYJHanvonWritingViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FBC69AFC1B997C85001BF52E /* HYJCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC69AFB1B997C85001BF52E /* HYJCharacter.m */; settings = {ASSET_TAGS = (); }; };
+		FBC69AFF1B998E7E001BF52E /* UIAlertView+HYJAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC69AFE1B998E7E001BF52E /* UIAlertView+HYJAlertView.m */; settings = {ASSET_TAGS = (); }; };
 		FBF1C7581B9537A2000E5A7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1C7571B9537A2000E5A7D /* main.m */; };
 		FBF1C75B1B9537A2000E5A7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1C75A1B9537A2000E5A7D /* AppDelegate.m */; };
 		FBF1C7611B9537A2000E5A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF1C75F1B9537A2000E5A7D /* Main.storyboard */; };
@@ -20,7 +31,27 @@
 		FBF1C7661B9537A2000E5A7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF1C7641B9537A2000E5A7D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FB0542FE1B9D746E0052997E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0542FA1B9D746E0052997E /* HYJCJWLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FBB3A05E1B9D72A30059CED2;
+			remoteInfo = HYJCJWLibrary;
+		};
+		FB0543001B9D74B20052997E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0542FA1B9D746E0052997E /* HYJCJWLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FBB3A05D1B9D72A30059CED2;
+			remoteInfo = HYJCJWLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		FB0542FA1B9D746E0052997E /* HYJCJWLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HYJCJWLibrary.xcodeproj; path = ../HYJCJWLibrary/HYJCJWLibrary.xcodeproj; sourceTree = "<group>"; };
+		FB9479591B9D361900811CC8 /* NSString+HYJEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HYJEncryption.h"; sourceTree = "<group>"; };
+		FB94795A1B9D361900811CC8 /* NSString+HYJEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HYJEncryption.m"; sourceTree = "<group>"; };
 		FBC69ABA1B9938FD001BF52E /* HYJWritingRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HYJWritingRes.bundle; sourceTree = "<group>"; };
 		FBC69AC51B993B6C001BF52E /* HYJDrawingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJDrawingTools.h; sourceTree = "<group>"; };
 		FBC69AC61B993B6C001BF52E /* HYJDrawingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJDrawingTools.m; sourceTree = "<group>"; };
@@ -32,6 +63,23 @@
 		FBC69ADA1B9940D5001BF52E /* HYJResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJResourceManager.m; sourceTree = "<group>"; };
 		FBC69ADD1B995ED7001BF52E /* HWCloudsdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWCloudsdk.h; sourceTree = "<group>"; };
 		FBC69ADE1B995ED7001BF52E /* libHWCloudsdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHWCloudsdk.a; sourceTree = "<group>"; };
+		FBC69AE11B996001001BF52E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FBC69AE31B99600E001BF52E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBC69AE51B996017001BF52E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBC69AE71B996022001BF52E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FBC69AE91B99602B001BF52E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FBC69AEB1B996034001BF52E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBC69AED1B99603D001BF52E /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		FBC69AEF1B9972C0001BF52E /* HYJHanvonWritingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJHanvonWritingViewController.h; sourceTree = "<group>"; };
+		FBC69AF01B9972C0001BF52E /* HYJHanvonWritingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJHanvonWritingViewController.m; sourceTree = "<group>"; };
+		FBC69AF61B99785E001BF52E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		FBC69AF71B99785E001BF52E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FBC69AF81B997872001BF52E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		FBC69AF91B997872001BF52E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FBC69AFA1B997C85001BF52E /* HYJCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJCharacter.h; sourceTree = "<group>"; };
+		FBC69AFB1B997C85001BF52E /* HYJCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJCharacter.m; sourceTree = "<group>"; };
+		FBC69AFD1B998E7E001BF52E /* UIAlertView+HYJAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+HYJAlertView.h"; sourceTree = "<group>"; };
+		FBC69AFE1B998E7E001BF52E /* UIAlertView+HYJAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+HYJAlertView.m"; sourceTree = "<group>"; };
 		FBF1C7531B9537A2000E5A7D /* CangJieWriting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CangJieWriting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF1C7571B9537A2000E5A7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FBF1C7591B9537A2000E5A7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +95,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBC69AEE1B99603D001BF52E /* libz.1.2.5.tbd in Frameworks */,
+				FBC69AEC1B996034001BF52E /* UIKit.framework in Frameworks */,
+				FBC69AEA1B99602B001BF52E /* SystemConfiguration.framework in Frameworks */,
+				FBC69AE81B996022001BF52E /* MobileCoreServices.framework in Frameworks */,
+				FBC69AE61B996017001BF52E /* Foundation.framework in Frameworks */,
+				FBC69AE41B99600E001BF52E /* CoreGraphics.framework in Frameworks */,
+				FBC69AE21B996001001BF52E /* CFNetwork.framework in Frameworks */,
 				FBC69ADF1B995ED7001BF52E /* libHWCloudsdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,9 +109,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB0542FB1B9D746E0052997E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB0542FF1B9D746E0052997E /* libHYJCJWLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		FBC69AB91B9938F1001BF52E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FBC69AED1B99603D001BF52E /* libz.1.2.5.tbd */,
+				FBC69AEB1B996034001BF52E /* UIKit.framework */,
+				FBC69AE91B99602B001BF52E /* SystemConfiguration.framework */,
+				FBC69AE71B996022001BF52E /* MobileCoreServices.framework */,
+				FBC69AE51B996017001BF52E /* Foundation.framework */,
+				FBC69AE31B99600E001BF52E /* CoreGraphics.framework */,
+				FBC69AE11B996001001BF52E /* CFNetwork.framework */,
 				FBC69ABA1B9938FD001BF52E /* HYJWritingRes.bundle */,
 			);
 			name = Frameworks;
@@ -86,6 +156,8 @@
 			children = (
 				FBC69AD91B9940D5001BF52E /* HYJResourceManager.h */,
 				FBC69ADA1B9940D5001BF52E /* HYJResourceManager.m */,
+				FBC69AFA1B997C85001BF52E /* HYJCharacter.h */,
+				FBC69AFB1B997C85001BF52E /* HYJCharacter.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -95,6 +167,8 @@
 			children = (
 				FBC69ACE1B993D9E001BF52E /* HYJWritingViewController.h */,
 				FBC69ACF1B993D9E001BF52E /* HYJWritingViewController.m */,
+				FBC69AEF1B9972C0001BF52E /* HYJHanvonWritingViewController.h */,
+				FBC69AF01B9972C0001BF52E /* HYJHanvonWritingViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -102,6 +176,10 @@
 		FBC69ACD1B993B86001BF52E /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				FBC69AFD1B998E7E001BF52E /* UIAlertView+HYJAlertView.h */,
+				FBC69AFE1B998E7E001BF52E /* UIAlertView+HYJAlertView.m */,
+				FB9479591B9D361900811CC8 /* NSString+HYJEncryption.h */,
+				FB94795A1B9D361900811CC8 /* NSString+HYJEncryption.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -118,6 +196,7 @@
 		FBF1C74A1B9537A2000E5A7D = {
 			isa = PBXGroup;
 			children = (
+				FB0542FA1B9D746E0052997E /* HYJCJWLibrary.xcodeproj */,
 				FBC69AB91B9938F1001BF52E /* Frameworks */,
 				FBC69ADC1B995ED7001BF52E /* HanvonSDK1.0 */,
 				FBF1C7551B9537A2000E5A7D /* CangJieWriting */,
@@ -173,6 +252,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				FB0543011B9D74B20052997E /* PBXTargetDependency */,
 			);
 			name = CangJieWriting;
 			productName = CangJieWriting;
@@ -199,18 +279,33 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = FBF1C74A1B9537A2000E5A7D;
 			productRefGroup = FBF1C7541B9537A2000E5A7D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FB0542FB1B9D746E0052997E /* Products */;
+					ProjectRef = FB0542FA1B9D746E0052997E /* HYJCJWLibrary.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FBF1C7521B9537A2000E5A7D /* CangJieWriting */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FB0542FF1B9D746E0052997E /* libHYJCJWLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libHYJCJWLibrary.a;
+			remoteRef = FB0542FE1B9D746E0052997E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FBF1C7511B9537A2000E5A7D /* Resources */ = {
@@ -232,21 +327,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBC69AC91B993B6C001BF52E /* HYJDrawingTools.m in Sources */,
+				FBC69AF11B9972C0001BF52E /* HYJHanvonWritingViewController.m in Sources */,
 				FBF1C75B1B9537A2000E5A7D /* AppDelegate.m in Sources */,
 				FBC69ADB1B9940D5001BF52E /* HYJResourceManager.m in Sources */,
 				FBC69ACA1B993B6C001BF52E /* HYJDrawingView.m in Sources */,
 				FBC69AD01B993D9E001BF52E /* HYJWritingViewController.m in Sources */,
+				FBC69AFC1B997C85001BF52E /* HYJCharacter.m in Sources */,
+				FBC69AFF1B998E7E001BF52E /* UIAlertView+HYJAlertView.m in Sources */,
+				FB94795B1B9D361900811CC8 /* NSString+HYJEncryption.m in Sources */,
 				FBF1C7581B9537A2000E5A7D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		FB0543011B9D74B20052997E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HYJCJWLibrary;
+			targetProxy = FB0543001B9D74B20052997E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		FBF1C75F1B9537A2000E5A7D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FBF1C7601B9537A2000E5A7D /* Base */,
+				FBC69AF61B99785E001BF52E /* zh-Hans */,
+				FBC69AF81B997872001BF52E /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -255,6 +364,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				FBF1C7651B9537A2000E5A7D /* Base */,
+				FBC69AF71B99785E001BF52E /* zh-Hans */,
+				FBC69AF91B997872001BF52E /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -282,6 +393,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -325,6 +437,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -355,6 +468,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.haoyuejun.CangJieWriting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -371,6 +485,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.haoyuejun.CangJieWriting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

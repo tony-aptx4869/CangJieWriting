@@ -82,6 +82,8 @@ typedef NS_ENUM(NSUInteger, HYJDrawingMode) {
  */
 - (void)commitAndDiscardToolStack;
 
+- (NSMutableArray *)allPath;
+
 @end
 
 #pragma mark - 

@@ -20,5 +20,7 @@ typedef NS_ENUM (NSInteger, HYJDevice) {
 @interface HYJResourceManager : NSObject
 
 + (UIImage *)mattImageForScreenSize:(CGSize)screenSize;
++ (UIImage *)smallMattImageForScreenSize:(CGSize)screenSize isSelected:(BOOL)selected;
++ (CGFloat)heightOfCharacterButtonForScreenSize:(CGSize)screenSize;
 
 @end
