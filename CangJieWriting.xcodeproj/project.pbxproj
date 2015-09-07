@@ -32,24 +32,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FB0542FE1B9D746E0052997E /* PBXContainerItemProxy */ = {
+		FB0543061B9D79FE0052997E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FB0542FA1B9D746E0052997E /* HYJCJWLibrary.xcodeproj */;
+			containerPortal = FB0543021B9D79FE0052997E /* HYJCJWLibrary.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = FBB3A05E1B9D72A30059CED2;
-			remoteInfo = HYJCJWLibrary;
-		};
-		FB0543001B9D74B20052997E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FB0542FA1B9D746E0052997E /* HYJCJWLibrary.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = FBB3A05D1B9D72A30059CED2;
 			remoteInfo = HYJCJWLibrary;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FB0542FA1B9D746E0052997E /* HYJCJWLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HYJCJWLibrary.xcodeproj; path = ../HYJCJWLibrary/HYJCJWLibrary.xcodeproj; sourceTree = "<group>"; };
+		FB0543021B9D79FE0052997E /* HYJCJWLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HYJCJWLibrary.xcodeproj; path = ../HYJCJWLibrary/HYJCJWLibrary.xcodeproj; sourceTree = "<group>"; };
 		FB9479591B9D361900811CC8 /* NSString+HYJEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HYJEncryption.h"; sourceTree = "<group>"; };
 		FB94795A1B9D361900811CC8 /* NSString+HYJEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HYJEncryption.m"; sourceTree = "<group>"; };
 		FBC69ABA1B9938FD001BF52E /* HYJWritingRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HYJWritingRes.bundle; sourceTree = "<group>"; };
@@ -109,10 +102,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FB0542FB1B9D746E0052997E /* Products */ = {
+		FB0543031B9D79FE0052997E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FB0542FF1B9D746E0052997E /* libHYJCJWLibrary.a */,
+				FB0543071B9D79FE0052997E /* libHYJCJWLibrary.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,7 +189,7 @@
 		FBF1C74A1B9537A2000E5A7D = {
 			isa = PBXGroup;
 			children = (
-				FB0542FA1B9D746E0052997E /* HYJCJWLibrary.xcodeproj */,
+				FB0543021B9D79FE0052997E /* HYJCJWLibrary.xcodeproj */,
 				FBC69AB91B9938F1001BF52E /* Frameworks */,
 				FBC69ADC1B995ED7001BF52E /* HanvonSDK1.0 */,
 				FBF1C7551B9537A2000E5A7D /* CangJieWriting */,
@@ -252,7 +245,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				FB0543011B9D74B20052997E /* PBXTargetDependency */,
 			);
 			name = CangJieWriting;
 			productName = CangJieWriting;
@@ -286,8 +278,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = FB0542FB1B9D746E0052997E /* Products */;
-					ProjectRef = FB0542FA1B9D746E0052997E /* HYJCJWLibrary.xcodeproj */;
+					ProductGroup = FB0543031B9D79FE0052997E /* Products */;
+					ProjectRef = FB0543021B9D79FE0052997E /* HYJCJWLibrary.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -298,11 +290,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		FB0542FF1B9D746E0052997E /* libHYJCJWLibrary.a */ = {
+		FB0543071B9D79FE0052997E /* libHYJCJWLibrary.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libHYJCJWLibrary.a;
-			remoteRef = FB0542FE1B9D746E0052997E /* PBXContainerItemProxy */;
+			remoteRef = FB0543061B9D79FE0052997E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -340,14 +332,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FB0543011B9D74B20052997E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HYJCJWLibrary;
-			targetProxy = FB0543001B9D74B20052997E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FBF1C75F1B9537A2000E5A7D /* Main.storyboard */ = {

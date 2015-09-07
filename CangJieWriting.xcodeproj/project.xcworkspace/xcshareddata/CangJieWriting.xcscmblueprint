@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DB5968897C89658BC59D4DA5299FBCF20B02C188",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3451BDEA4F77C7681ADE4ADEC1E964820EC3CA58" : 0,
+    "DB5968897C89658BC59D4DA5299FBCF20B02C188" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "41692CCC-0E18-4DBA-AD22-2BF9ACDAC7B5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3451BDEA4F77C7681ADE4ADEC1E964820EC3CA58" : "HYJCJWLibrary\/",
+    "DB5968897C89658BC59D4DA5299FBCF20B02C188" : "CangJieWriting\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CangJieWriting",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CangJieWriting.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wenfeng0218\/HYJCJWLibrary.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3451BDEA4F77C7681ADE4ADEC1E964820EC3CA58"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wenfeng0218\/CangJieWriting.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DB5968897C89658BC59D4DA5299FBCF20B02C188"
+    }
+  ]
+}
